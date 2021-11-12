@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "0086a618-bc10-42fa-aff5-e18a244927b9",
+		"name": "testNodeJs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "id",
+						"value": "G6LdB8yXGZ^RK!WPtpBc&Cnmr^fj5e8QxDTz67M*Pua$jcTeH^",
+						"type": "text"
+					},
+					{
+						"key": "expiration",
+						"value": "1640995140",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\": 15,\r\n    \"name\": \"Test\",\r\n    \"description\": \"Description\",\r\n    \"date\": \"2022-05-05T10:00:00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
